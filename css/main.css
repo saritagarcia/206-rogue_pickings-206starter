@@ -50,12 +50,14 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
 	border-bottom: 3px solid #77a466;
+	width: 100%
 }
 header h1 span {
 	color: #77a466;
@@ -66,6 +68,7 @@ header nav {
 	display:flex;
 	flex-wrap: wrap;
 	align-items: center;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
@@ -75,7 +78,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	padding: 0 10px;
+	padding: 0 30px;
 	list-style: none;
 	text-align: center;
 	flex-wrap: wrap;
@@ -132,14 +135,15 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px 0px;
+}
+
+.section-one,
+.section-two,
+.section-three p {
+	padding: 0px 0px;
 }
 
 .menu {
@@ -172,6 +176,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width:100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
